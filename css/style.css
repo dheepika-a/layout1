@@ -1,0 +1,242 @@
+.header .wrapper
+{
+	width:70%;
+	margin:auto;
+	
+}
+.profile .wrapper
+{
+	width:70%;
+	margin:auto;
+}
+.portfolio .wrapper
+{
+	width:70%;
+	margin:auto;
+}
+.about .wrapper
+{
+	width:70%;
+	margin:auto;
+}
+.contact .wrapper
+{
+	width:70%;
+	margin:auto;
+}
+.team .wrapper
+{
+	width:70%;
+	margin:auto;
+}
+.website .wrapper
+{
+	width:70%;
+	margin:auto;
+}
+.header
+{
+	 background-color:rgb(44,62,80);
+	 
+	 
+}
+.header .header-fc
+{ 
+	display:flex;
+	justify-content:space-between;
+}
+.header .header-fc .header-logo
+{
+	background-color:pink;
+	width:258px;
+	height:69px;
+}
+.header .header-fc .header-navi
+{
+	background-color:pink;
+	width:350px;
+	height:69px;
+}
+
+.profile
+{
+	background-color:rgb(26,188,156);
+}
+.profile .profile-fc
+{
+	display:flex;
+	justify-content:space-between;
+	flex-direction:column;
+	align-items:center;
+	
+}
+.profile .profile-fc .profile-logo
+{
+	background-color:white;
+	width:550px;
+	height:111px;
+	align-items:center;
+
+}
+.profile .profile-fc .profile-navi
+{
+	background-color:pink;
+	width:454px;
+	height:56px;
+	align-items:center;
+	
+}
+.portfolio
+{
+	background-color:rgb(255,255,255);
+}
+.portfolio .portfolio-fc
+{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:row;
+	
+	
+}
+.portfolio .portfolio-fc .boxa
+{
+	background-color:deepskyblue;
+	width:330px;
+	height:288px;
+}
+.portfolio .portfolio-fc .boxb
+{
+	background-color:dodgerblue;
+		width:330px;
+	height:288px;
+}
+.portfolio .portfolio-fc .boxc
+{
+	background-color:deepskyblue;
+		width:330px;
+	height:288px;
+}
+.portfolio .portfolio-fc .boxd
+{	background-color:dodgerblue;
+	width:330px;
+	height:288px;
+}
+.portfolio .portfolio-fc .boxe
+{
+	background-color:deepskyblue;
+	width:330px;
+	height:288px;
+}
+.portfolio .portfolio-fc .boxf
+{	background-color:dodgerblue;
+	width:330px;
+	height:288px;
+}
+
+.about
+{
+	
+	background-color:rgb(26,188,156);
+	
+}
+.about .about-fc
+{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	
+	
+}
+.about .about-fc .about-head
+{
+	width:100%;
+
+
+	
+}
+.about .about-fc .about-text
+{
+	background-color:pink;
+	width:432px;
+	height:157px;
+}
+.contact
+{
+	background-color:rgb(255,255,255);
+}
+
+.contact .contact-fc
+{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:column;
+
+}
+.contact .contact-fc .name
+{
+	width:100%;
+	height:61px;
+}
+.contact .contact-fc .email
+{
+	width:100%;
+	height:61px;
+}
+.contact .contact-fc .mobile
+{
+	width:100%;
+	height:61px;
+}
+.contact .contact-fc .message
+{
+	width:100%;
+	height:61px;
+}
+
+.team
+{
+	background-color:rgb(44,62,80)
+	 
+	 
+}
+.team .team-fc
+{
+	display:flex;
+	justify-content:space-between;
+}
+.team .team-fc .teama
+{
+	background-color:thistle;
+	width:232px;
+	height:111px;
+}
+.team .team-fc .teamb
+{
+	background-color:thistle;
+	width:232px;
+	height:111px;
+}
+.team .team-fc .teamc
+{
+	background-color:thistle;
+	width:232px;
+	height:111px;
+}
+
+
+.website
+{
+	background-color :black;
+	
+}
+.website .website-fc
+{
+	display:flex;
+	justify-content:space-evenly;
+}
+.website .website-fc .copyright
+{
+	background-color:grey;
+	width:220px;
+	height:37px;
+}
